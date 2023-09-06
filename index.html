@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex justify-center items-center">
+        <div class="bg-black h-[520px] w-[280px] mt-5 rounded-tl-3xl rounded-tr-3xl rounded-br-3xl rounded-bl-3xl text-left border-solid border-4 border-[#ccc] p-5">
+            <div class="text-center w-[60px] h-[60px] ml-16 mt-[150px]">
+                <input class="display rounded-[10px] text-right mr-2.5 bg-black text-white" type="text" placeholder="0 ">
+            </div>
+          <div class="text-black pb-[4px] text-center">
+            <button class="bg-[#febc16] rounded-[50%] h-12 w-12" data-value = "AC">AC</button>
+            <button class="bg-[#febc16] rounded-[50%] h-12 w-12" data-value = "+/-">+/-</button>
+            <button class="bg-[#febc16] rounded-[50%] h-12 w-12" data-value = "%">%</button>
+            <button class="bg-[#febc16] rounded-[50%] h-12 w-12" data-value = "/">/</button>
+          </div>
+          <div class="text-black pb-[4px] text-center">
+            <button class="bg-[#ccc] rounded-[50%] h-12 w-12" data-value = "7">7</button>
+            <button class="bg-[#ccc] rounded-[50%] h-12 w-12" data-value = "8">8 </button>
+            <button class="bg-[#ccc] rounded-[50%] h-12 w-12" data-value = "9">9</button>
+            <button class="bg-[#febc16] rounded-[50%] h-12 w-12" data-value = "*">*</button>
+          </div>
+          <div class="text-black pb-[4px] text-center">
+            <button class="bg-[#ccc] rounded-[50%] h-12 w-12" data-value = "4">4</button>
+            <button class="bg-[#ccc] rounded-[50%] h-12 w-12" data-value = "5">5</button>
+            <button class="bg-[#ccc] rounded-[50%] h-12 w-12" data-value = "6">6</button>
+            <button class="bg-[#febc16] rounded-[50%] h-12 w-12" data-value = "-">-</button>
+          </div>
+          <div class="text-black pb-[4px] text-center">
+            <button class="bg-[#ccc] rounded-[50%] h-12 w-12" data-value = "1">1</button>
+            <button class="bg-[#ccc] rounded-[50%] h-12 w-12" data-value = "2">2</button>
+            <button class="bg-[#ccc] rounded-[50%] h-12 w-12" data-value = "3">3</button>
+            <button class="bg-[#febc16] rounded-[50%] h-12 w-12" data-value = "+">+</button>
+          </div>
+          <div class="text-black text-center">
+            <button class=" h-12 w-12" data-value = "icon"><i class="fa-solid fa-right-left" style="color: #febc16;"></i></button>
+            <button class="bg-[#ccc] rounded-[50%] h-12 w-12" data-value = "0">0</button>
+            <button class="bg-[#ccc] rounded-[50%] h-12 w-12" data-value = ".">.</button>
+            <button class="bg-[#febc16] rounded-[50%] h-12 w-12" data-value = "=">=</button>
+          </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
